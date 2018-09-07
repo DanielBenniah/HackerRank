@@ -1,0 +1,18 @@
+1960244 2449304 1960244
+
+int temp=a[i][j];
+				if(a[i][j]!=a[n-j][i])
+				number+=1;
+				if(a[n-j][i!=a[n-i][n-j]])
+				number+=1;
+				if(a[n-i][n-j]!=a[j][n-i])
+				number+=1;
+				if(a[j][n-i]!=temp)
+				number+=1;
+
+
+		printf("\nValue of i is %d",i);
+		printf("\nValue of j is %d",j);
+		printf("\nValue of ((%d)*(%d))*((%d)*(%d))) is %d",i+1,j+1,i+1,j+1,((i+1)*(j+1))*((i+1)*(j+1)));
+		printf("\nValue of ((%d)*(%d))*((%d)*(%d))) modulus 7 is %d",i+1,j+1,i+1,j+1,(((i+1)*(j+1))*((i+1)*(j+1))%7));
+		printf("\nValue of p[%d] is %d",((((i+1)*(j+1))*((i+1)*(j+1)))%7),p[((((i+1)*(j+1))*((i+1)*(j+1)))%7)]);
